@@ -1,0 +1,568 @@
+.section-1
+{
+    margin:0;
+    padding-bottom:0rem;
+}
+
+.section-2
+ {
+  background-color: #FFFFFF;
+       .main_content
+       {
+        display:flex;
+        justify-content: center;
+        align-items:center;
+           flex-direction: column;
+           
+    background-image: url(../images/Rectangle1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+   // height:auto;
+     min-height:75rem;
+      padding:10%;
+    .content
+    {
+       
+      color:white;
+    //    width:36rem;
+    //    margin-left:22%;
+    //    margin-right:22%;
+       .para
+       {
+        
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 163.15%;
+        /* or 29px */
+        margin-left:23%;
+        margin-right:27%;
+         text-align: center;
+
+       }
+       .section-2__header
+       {
+        // font-style: normal;
+     font-weight: 800;
+     font-size: 4.8rem;
+     margin-left:23%;
+     margin-right:23%;
+line-height: 6rem;
+     padding-bottom: 2rem;
+
+       }
+    }
+    .section-2__form-section
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin:5%;
+        .form_section_input
+        {
+       #input
+       {
+        // padding:1.6rem;
+         background: #FFFFFF;
+
+border: 0.2rem solid #BBC8D4;
+border-radius: 0.4rem;
+    text-align: left;
+    // display: block;
+    width:32rem;
+     height:5.6rem; 
+      margin: 2rem;
+      
+          
+       }
+       #input::placeholder
+       {
+        font-size: 1.6rem;
+       }
+    }
+       #btn
+       {
+           padding-left:3rem;
+           padding-right:3rem;
+           padding-top:1.8rem;
+           padding-bottom:1.8rem;
+        //    width:16.5rem;
+        //    height:5.6rem;
+        //    margin-right: 4rem;
+           background: #F64C72;
+           border:#FFFFFF;
+     border-radius: 4px;  
+       color:#FFFFFF;
+        // margin-left:40%;
+        text-align: center;
+      // margin-right:50%;
+      .touch 
+      {
+        font-size:1.6rem;
+      }
+   
+       }
+    }
+       }
+    //  .content
+    //  {
+        
+    //    color:white;
+    //     width:36rem;
+    //  }
+    //  .section-2__form-section
+    //  {
+    //     #input
+    //     {
+    //       padding:1rem;
+           
+    //     }
+    //     #btn
+    //     {
+    //         padding:1rem;
+    //         background-color: #F64C72;
+    //         color:white;
+    //     }
+    //  }
+}
+.section-3
+{
+     margin-left:18%;
+ margin-right: 18%;
+    display: flex;
+background: #FFFFFF;
+    box-shadow: 0px 10px 15px rgba(126, 97, 97, 0.25);
+    align-items: center;
+    // width:500px;
+    // justify-content: center;
+    flex-wrap:wrap;
+   
+}
+.features
+{
+
+    display: flex;
+     margin-top:10rem;
+    width:100%;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+      flex-wrap: wrap;
+    .feature
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:white;
+        width: 36.7rem;
+       height: 29.6rem;
+       background: #FFFFFF;
+      box-shadow: 0px 10px 15px rgba(6, 0, 0, 0.25);
+      z-index:2;
+      h3 
+      {
+        font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 2.6rem;
+line-height: 3.3rem;
+text-align: center;
+
+color: #553D67;
+      }
+      p 
+      {
+        margin:10%;
+        font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 1.8rem;
+line-height: 163.15%;
+/* or 29px */
+
+text-align: center;
+
+color: rgba(73, 92, 118, 0.7);
+
+      }
+    }
+
+}
+.section-4
+{
+    position:relative;
+}
+.achievements
+{
+    background-color: #F64C72    ;
+    text-align: center;
+     color:white;
+      padding-top:12%;
+      padding-bottom:10%;
+     transform: translateY(-3.5rem);
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       .header 
+       {
+        margin-bottom:2%;
+        font-size:4rem;
+        font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 4rem;
+line-height: 5rem;
+       }
+       .text 
+       {
+        
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 520;
+        font-size: 1
+        .8rem;
+        line-height: 163.15%;
+          margin-left:29.5%;
+          margin-right:29.5%;
+        text-align: center;
+        margin-bottom: 5%;
+        color: #FFFFFF;
+    
+       }
+    //   .content
+    //   {
+    //     margin:10%;
+    //     width: 69.6rem;
+    //      height: 58rem;
+    //    font-family: 'Open Sans';
+    //     font-style: normal;
+    //    font-weight: 600;
+    //  font-size: 1.8rem;
+    //     line-height: 163.15%;
+    //   }
+    .numbers
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+         justify-content:space-evenly;
+         .entity
+         {
+            h1 
+            {
+                font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 4rem;
+line-height: 5rem;
+text-align: center;
+color: #FFFFFF;
+
+            }
+            h5 
+            {
+                font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 1.4rem;
+line-height: 150.6%;
+            }
+         }
+    }
+}
+.section-5
+{
+    margin-top:10rem;
+    margin-bottom:10rem;
+    // display: flex;
+    //   flex-direction: column;
+    //   justify-content: center;
+    //   align-items: center;
+    // margin:50px;
+    .section-text
+    {
+        display: flex;
+        justify-content: center;
+       .txt 
+       {
+        font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 4.8rem;
+line-height: 6rem;
+// text-align: center;
+
+/* Theme Technofevers 1 */
+
+color: #553D67;
+       }
+    }
+    .underline-text
+    {
+        border-bottom:2px solid red;
+    }
+    h1 
+    {
+        margin-bottom:5rem;
+        color: #553D67;
+    }
+}
+
+.sections 
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3rem;
+    column-gap:3rem;
+    .sectioni 
+    {
+     
+     width: 36.7rem;
+    height: 39.5rem;
+    background: #FFFFFF;
+    text-align: center;
+     box-shadow: 0px 10px 15px rgba(101, 90, 90, 0.25);
+      padding:1.2%;
+       .title 
+       {
+        margin-bottom: 5%;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 2.6rem;
+line-height: 3.3rem;
+text-align: center;
+
+/* Theme Technofevers 1 */
+
+color: #553D67;
+       }
+       .contain 
+       {
+        
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 163.15%;
+/* or 29px */
+
+text-align: center;
+
+color: rgba(73, 92, 118, 0.7);
+       }
+    }
+}
+ 
+
+
+.section-6
+{
+     display:grid;
+     grid-template-columns: repeat(auto-fit,minmax(35rem,1fr));
+    //   align-items:stretch;
+    .grid-1
+    {
+    //    height: fit-content;
+     .photose
+       {
+                width:100%;
+                height:auto;
+                // margin:0;
+       }
+    }
+    .grid-2
+    {
+        padding:5%;
+        // height:100vw;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #F64C72;
+        color:white;
+        flex-wrap: wrap;
+        .head  
+        {
+            font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 4rem;
+line-height: 5rem;
+color: #FFFFFF;
+        }
+        .texts
+        {
+            .text11 
+            {
+            font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 1.8rem;
+line-height: 2.9rem;
+text-align: center;
+  margin:5%;
+            }
+        }
+        .btn
+        {
+            background-color: #F64C72;
+            padding:2rem;
+             color:white;  
+            border:1px solid white;
+            .touch 
+            {
+                font-size:1.6rem;
+            }
+        }
+    }
+}
+.section-8
+{
+    // margin:50px;
+    .title
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10%;
+        .txt{
+          
+/* Grey */
+font-family: 'Muli';
+font-style: normal;
+font-weight: 400;
+font-size: 4.8rem;
+line-height: 6rem;
+text-align: center;
+
+/* Theme Technofevers 1 */
+
+color: #553D67;
+
+        }
+    }
+}
+.section-9
+{
+    margin-top:10rem;
+    background-color: #F64C72;
+    .email
+    {
+        text-align: left;
+    }
+    .email::placeholder
+    {
+        font-size: 1.6rem;
+    }
+}
+.section-8
+{
+    // margin-top:100px;
+    .underline-text
+    {
+        border-bottom: 3px solid #F64C72;
+    }
+}
+.footer
+{
+     display: flex;
+      margin:5%;
+     
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      .line1,.line2{
+        // margin: 10%;
+      }
+    .logos
+    {
+        //  margin:10%;
+       display:flex;
+    //    margin-right:10%;
+    //    grid-template-columns: auto auto auto auto;
+    //    align-items: center;
+    // flex:1;
+    width:30%;
+    justify-content: space-between;
+    }
+    .line1,.line2
+    {
+        font-size:1.6rem;
+    }
+}
+.section-7
+{
+    // margin-top:10rem;
+    // margin-bottom:10rem;
+    h1
+    {
+        margin:10%;
+        font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 4.8rem;
+line-height: 6rem;
+text-align: center;
+
+/* Theme Technofevers 1 */
+
+color: #553D67;
+    }
+    .underline-text
+    {
+        border-bottom:3px solid #F64C72;
+    }
+    .peoplei
+    {
+        width:100%;
+        height:auto;
+    }
+   
+}
+// @media only screen and (max-width: 2400px) {
+//     html {
+//        font-size: 14px;
+//      }
+//    }
+// @media only screen and (max-width: 2000px) {
+//     html {
+//        font-size: 12px;
+//      }
+//    }
+@media only screen and (max-width: 1500px) {
+    html {
+        font-size: 10px;
+     }
+   }
+
+@media only screen and (max-width: 500px) {
+   html {
+      font-size: 8px;
+    }
+  }
+//   @media only screen and (max-width: 360px) {
+//     html {
+//        font-size: 7px;
+//      }
+//    }
+//    @media only screen and (max-width: 215px) {
+//     html {
+//        font-size: 6px;
+//      }
+//    }
+//    @media only screen and (max-width: 2000px) {
+//     html {
+//        font-size: 16px;
+//      }
+//    }
+
+
+ 
